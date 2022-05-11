@@ -37,6 +37,7 @@ type FeedbackType = keyof typeof feedbackTypes
     * ['IDEA, {...}],
     * ['THOUGHT', {...}],
   * ]
+  * 
 */
 
 export function WidgetForm () {
