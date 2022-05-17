@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { FeedbackType, feedbackTypes } from ".."
 import { CloseButton } from "../../CloseButton";
 
@@ -9,7 +8,7 @@ interface FeedbackTypeStepProps {
 export function FeedbackTypeStep({onFeedbackTypeChanged}: FeedbackTypeStepProps) {
   return (
 
-    <Fragment>
+    <>
     <header>
     <span className="text-xl leading-6">Deixe seu feedback</span>
 
@@ -31,6 +30,6 @@ export function FeedbackTypeStep({onFeedbackTypeChanged}: FeedbackTypeStepProps)
           )
         })}
     </div>
-    </Fragment>
+    </>
   )
 }
