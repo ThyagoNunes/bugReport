@@ -7,7 +7,6 @@ interface SubmitFeedbackUseCaseRequest {
 }
 
 export class SubmitFeedbackUseCase {
-
   constructor (
     private feedbacksRepository: FeedbacksRepository
   ) {}

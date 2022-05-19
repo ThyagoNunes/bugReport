@@ -4,7 +4,6 @@ export interface FeedbacksCreateDate {
   screenshot: string,
 }
 
-
 export interface FeedbacksRepository {
   create: (data: FeedbacksCreateDate) => Promise<void>;
 }
